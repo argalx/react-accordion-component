@@ -26,6 +26,7 @@ function App() {
 }
 
 function Accordion({ data }) {
+  // state to track which item is currently open
   const [curOpen, setCurOpen] = useState(null);
 
   return (
